@@ -1,0 +1,14 @@
+{
+  "name": "polypulse",
+  "version": "1.0.0",
+  "description": "Open-source Polymarket anomaly monitor — alerts on price swings and volume spikes via Discord.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/monitor.js"
+  },
+  "license": "MIT"
+}
